@@ -55,7 +55,6 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.mathjax',
               'sphinx.ext.ifconfig',
               'sphinx.ext.linkcode',
-              'nbsphinx',
               ]
 
 exclude_patterns = ['**.ipynb_checkpoints']
@@ -260,10 +259,6 @@ html_use_modindex = True
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'pandas'
-
-# -- Options for nbsphinx ------------------------------------------------
-
-nbsphinx_allow_errors = True
 
 # -- Options for LaTeX output --------------------------------------------
 
