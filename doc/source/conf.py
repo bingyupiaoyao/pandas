@@ -50,9 +50,6 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.extlinks',
               'sphinx.ext.todo',
               'numpydoc', # used to parse numpy-style docstrings for autodoc
-              'ipython_sphinxext.ipython_directive',
-              'ipython_sphinxext.ipython_console_highlighting',
-              'IPython.sphinxext.ipython_console_highlighting',  # lowercase didn't work
               'sphinx.ext.intersphinx',
               'sphinx.ext.coverage',
               'sphinx.ext.mathjax',
